@@ -1,20 +1,20 @@
-#Gmod Server Auto Restarter
+# Gmod Server Auto Restarter
 
 Gmod Server Auto Restarter is a user-friendly PowerShell script that simplifies the process of managing a Garry's Mod dedicated server. It provides a sleek graphical interface for starting and monitoring the server, with the added functionality of automatically restarting the server if it crashes or stops.
 
-##Features
+## Features
  - Intuitive graphical user interface (GUI) built with Windows Presentation Foundation (WPF)
  - Automatically saves and loads the last used srcds.exe path and additional arguments for convenience
  - Supports specifying custom command-line arguments for the server
  - Automatically restarts the server if it crashes or stops, ensuring minimal downtime
  - Sleek and visually appealing design for a pleasant user experience
 
-##Prerequisites
+## Prerequisites
  - Windows operating system
  - PowerShell 5.1 or later
  - Garry's Mod dedicated server files
 
- ##Installation / Usage Method 1
+ ## Installation / Usage Method 1
  - Download the ('GMODServerAutoRestarter.ps1') script from this repository.
  - Place the script in a convenient location on your computer.
 
@@ -33,9 +33,9 @@ Gmod Server Auto Restarter is a user-friendly PowerShell script that simplifies 
  - The server will automatically restart if it crashes or stops.
  - To stop the server, simply close the Gmod Server Auto Restarter window.
 
-##Configuration
+## Configuration
  - The script automatically saves and loads the server configuration from a file named ('settings.txt') in the same directory as the script. You can manually edit the ('settings.txt') file to modify the server configuration if needed. The configuration file stores the following information:
-###('Settings.txt') Example
+### ('Settings.txt') Example
 ```
 {
     "srcdsPath":  "C:\\gmod\\srcds.exe",
@@ -43,15 +43,15 @@ Gmod Server Auto Restarter is a user-friendly PowerShell script that simplifies 
 }
 ```
 
-##Customization
+## Customization
  - Adjust the window size and layout by modifying the XAML code in the script.
  - Customize the styles and colors of the GUI elements by modifying the styles defined in the Window.Resources section of the XAML code.
 
-##Acknowledgements
+## Acknowledgements
  - The script utilizes the Windows Presentation Foundation (WPF) for creating the graphical user interface.
  - The Garry's Mod dedicated server is the property of Facepunch Studios.
 
-##Disclaimer
+## Disclaimer
 This script is provided as-is without any warranty. Use it at your own risk. The author is not responsible for any damage or loss caused by the use of this script.
 
 ## License
