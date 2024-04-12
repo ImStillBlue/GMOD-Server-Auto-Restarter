@@ -66,6 +66,9 @@ Gmod Server Auto Restarter is a user-friendly PowerShell script that simplifies 
  - Adjust the window size and layout by modifying the XAML code in the script.
  - Customize the styles and colors of the GUI elements by modifying the styles defined in the Window.Resources section of the XAML code.
 
+## For Developers
+ - To Create owm (`.exe`) use [PS2EXE](https://github.com/MScholtes/PS2EXE)
+
 ## Acknowledgements
  - The script utilizes the Windows Presentation Foundation (WPF) for creating the graphical user interface.
  - The Garry's Mod dedicated server is the property of Facepunch Studios.
