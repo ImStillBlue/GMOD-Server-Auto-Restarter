@@ -23,6 +23,14 @@ Gmod Server Auto Restarter is a user-friendly PowerShell script that simplifies 
  - The script will remember the last used path for future sessions.
  > [!CAUTION]
  > Modify the additional command-line arguments in the "Additional Arguments" text box.
+  ### Example
+ ```
+-console -game garrysmod +exec server.cfg +gamemode darkrp +host_workshop_collection 0000000000 +map gm_construct +maxplayers 16
+ ```
+ - The script will save and load the last used additional arguments for convenience.
+ - Click the "Start" button to start the Garry's Mod server.
+ - The server will automatically restart if it crashes or stops.
+ - To stop the server, simply close the Gmod Server Auto Restarter window.
 
  ## Installation / Usage Method 2 (Not Preferred)
  - Download the (`GMODServerAutoRestarter.ps1`) script from this repository.
