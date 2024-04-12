@@ -14,7 +14,17 @@ Gmod Server Auto Restarter is a user-friendly PowerShell script that simplifies 
  - PowerShell 5.1 or later
  - Garry's Mod dedicated server files
 
- ## Installation / Usage Method 1
+ ## Installation / Usage Method 1 (Preferred)
+ - Go to [Releases](https://github.com/ImStillBlue/GMOD-Server-Auto-Restarter/releases) and download the latest (`.exe`)
+ - Place the script in a convenient location on your computer.
+ - Open (`.exe`)
+ - The Gmod Server Auto Restarter GUI will appear.
+ - Click the "Browse" button to select the path to your srcds.exe file (usually located in your Garry's Mod dedicated server directory).
+ - The script will remember the last used path for future sessions.
+ > [!CAUTION]
+ > Modify the additional command-line arguments in the "Additional Arguments" text box.
+
+ ## Installation / Usage Method 2 (Not Preferred)
  - Download the (`GMODServerAutoRestarter.ps1`) script from this repository.
  - Place the script in a convenient location on your computer.
 
@@ -25,7 +35,7 @@ Gmod Server Auto Restarter is a user-friendly PowerShell script that simplifies 
  - The script will remember the last used path for future sessions.
  > [!CAUTION]
  > Modify the additional command-line arguments in the "Additional Arguments" text box.
- ###Example
+ ### Example
  ```
 -console -game garrysmod +exec server.cfg +gamemode darkrp +host_workshop_collection 0000000000 +map gm_construct +maxplayers 16
  ```
