@@ -15,15 +15,16 @@ Gmod Server Auto Restarter is a user-friendly PowerShell script that simplifies 
  - Garry's Mod dedicated server files
 
  ## Installation / Usage Method 1
- - Download the ('GMODServerAutoRestarter.ps1') script from this repository.
+ - Download the (`GMODServerAutoRestarter.ps1`) script from this repository.
  - Place the script in a convenient location on your computer.
 
- - Right-click on the GMODServerAutoRestarter.ps1 script and select "Run with PowerShell".
+ - Right-click on the (`GMODServerAutoRestarter.ps1`) script and select "Run with PowerShell".
 ***If you encounter a security warning, you may need to adjust your PowerShell execution policy to allow running scripts.***
  - The Gmod Server Auto Restarter GUI will appear.
  - Click the "Browse" button to select the path to your srcds.exe file (usually located in your Garry's Mod dedicated server directory).
  - The script will remember the last used path for future sessions.
- - (Critical) Modify the additional command-line arguments in the "Additional Arguments" text box.
+ > [!CAUTION]
+ > Modify the additional command-line arguments in the "Additional Arguments" text box.
  ###Example
  ```
 -console -game garrysmod +exec server.cfg +gamemode darkrp +host_workshop_collection 0000000000 +map gm_construct +maxplayers 16
@@ -34,7 +35,7 @@ Gmod Server Auto Restarter is a user-friendly PowerShell script that simplifies 
  - To stop the server, simply close the Gmod Server Auto Restarter window.
 
 ## Configuration
- - The script automatically saves and loads the server configuration from a file named ('settings.txt') in the same directory as the script. You can manually edit the ('settings.txt') file to modify the server configuration if needed. The configuration file stores the following information:
+ - The script automatically saves and loads the server configuration from a file named (`settings.txt`) in the same directory as the script. You can manually edit the (`settings.txt`) file to modify the server configuration if needed. The configuration file stores the following information:
 ### ('Settings.txt') Example
 ```
 {
